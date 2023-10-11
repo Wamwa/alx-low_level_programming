@@ -1,20 +1,20 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
-  * main - this isthe function
-  * Return: returns 0
-  */
+*main - Begin here
+*
+*Return: Value of 0 success
+*/
+
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+	char text[] = "_putchar";
+	int i;
 
-return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+	return (0);
 }

@@ -1,16 +1,17 @@
 #include "main.h"
-
 /**
-  * print_alphabet - task function
-  * Return: return 0
-  */
+*print_alphabet - Begin Here
+*print a-z and A-Z using putchar
+*Return: Value 0 (true)
+**/
 void print_alphabet(void)
 {
+	char ch = 'a';
 
-char c;
-for (c= 'a'; c <= '2'; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 }
